@@ -18,7 +18,7 @@ var commentRoutes    = require('./routes/comments'),
 	authRoutes       = require('./routes/auth');
 
 
-mongoose.connect("mongodb://localhost:27017/yelp_camp", {useNewUrlParser: true });
+mongoose.connect("mongodb+srv://yelpcamporigin:Hello@india1@cluster0-ksucb.mongodb.net/test?retryWrites=true&w=majority", {useNewUrlParser: true });
 app.use(express.static("public"));
 app.locals.moment = require('moment');
 app.use(flash());
