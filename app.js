@@ -18,7 +18,7 @@ var commentRoutes    = require('./routes/comments'),
 	authRoutes       = require('./routes/auth');
 
 
-mongoose.connect("mongodb+srv://yelpcamporigin:Hello%40india1@cluster0-ksucb.mongodb.net/test?retryWrites=true&w=majority", { 
+mongoose.connect("mongodb%2Bsrv%3A%2F%2Fyelpcamporigin%3AHello%40india1%40cluster0-ksucb.mongodb.net%2Ftest%3FretryWrites%3Dtrue%26w%3Dmajority", { 
         useNewUrlParser: true
     });
 app.use(express.static("public"));
